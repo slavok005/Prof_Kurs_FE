@@ -1,0 +1,254 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+.pages {
+    width: 1600px;
+    height: 1400px;
+    background: var(--Background, #A7D7C5);
+    padding-top: 131px;
+    padding-left: 451px;
+}
+
+.account {
+    width: 698px;
+    height: 900px;
+    border-radius: 49.09px;
+    background: var(--Form-Bg, #F6FBF9);
+}
+
+.kreate {
+    width: 483px;
+    height: 68px;
+    color: var(--Heading, #212B27);
+    text-align: center;
+    font-size: 55.226px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71.794px;
+    padding-top: 30px;
+    padding-left: 107px;
+}
+
+.text {
+    width: 472.492px;
+    height: 85.543px;
+    padding-left: 113px;
+    padding-top: 70px;
+    color: var(--Paragraph, #32403B);
+    text-align: center;
+    font-family: Karla;
+    font-size: 23.011px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.914px;
+}
+
+.adresse {
+    margin-left: 61px;
+    margin-top: 15.46px;
+
+    width: 575.275px;
+    height: 60px;
+    border-radius: 15px;
+    border: 1.534px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+
+}
+
+
+input {
+    margin-left: 15px;
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.50);
+
+    font-family: Karla;
+    font-size: 23.01px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.5px;
+
+}
+
+.password{
+    margin-left: 61px;
+    margin-top: 20px;
+    width: 575.275px;
+    height: 60px;
+    border-radius: 15px;
+    border: 1.534px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+}
+
+.vvod {
+    display: flex;
+    justify-content: space-between
+}
+
+.Name {
+    margin-left: 61px;
+    width: 280px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1.534px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    font-family: Karla;
+    font-size: 23.01px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.5px;
+
+}
+
+.last {
+    margin-right: 61px;
+    width: 280px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1.534px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    font-family: Karla;
+    font-size: 23.01px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.5px;
+}
+
+h6 {
+    color: var(--Paragraph, #32403B);
+    text-align: center;
+    font-family: Karla;
+    font-size: 23.01px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.5px;
+    margin-top: 20px;
+    margin-right: 340px;
+}
+
+.num1 {
+    width: 120px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 15.341px;
+    border: 1.534px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+
+    margin-left: 61px;
+}
+
+.num2 {
+    width: 437px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 15.341px;
+    border: 1.534px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+}
+
+.description1 {
+    margin-top: 29px;
+    margin-right: 320px;
+    color: var(--Paragraph, #32403B);
+    text-align: center;
+    font-family: Karla;
+    font-size: 23.01px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.5px;
+}
+
+.tupe {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 151px 20px 61px;
+
+
+
+}
+.radio{
+    width: 40px;
+height: 40px;
+fill: #FFF;
+stroke-width: 1px;
+stroke: rgba(0, 0, 0, 0.35);
+}
+
+.free {
+    margin-top: 23px;
+    color: var(--Paragraph, #32403B);
+    text-align: center;
+    font-family: Karla;
+    font-size: 23.01px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.5px;
+}
+
+.premium {
+    margin-top: 23px;
+    color: var(--Paragraph, #32403B);
+    text-align: center;
+    font-family: Karla;
+    font-size: 23.01px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.5px;
+}
+
+.luxury {
+    margin-top: 23px;
+    color: var(--Paragraph, #32403B);
+    text-align: center;
+    font-family: Karla;
+    font-size: 23.01px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.5px;
+}
+
+.btn__accoun {
+    margin-top: 30px;
+    margin-left: 159px;
+
+    width: 391.187px;
+    height: 100px;
+    border-radius: 23.011px;
+    background: #84C7AE;
+}
+
+.bt {
+    margin-top: 25px;
+    margin-left: 77px;
+    width: 245px;
+    height: 42px;
+    color: #FFF;
+    text-align: center;
+    font-family: Karla;
+    font-size: 33.749px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 43.874px;
+}
+
+.end {
+    width: 326.756px;
+    height: 41.675px;
+    color: var(--Paragraph, #32403B);
+    font-family: Karla;
+    font-size: 21.477px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.92px;
+    text-decoration-line: underline;
+    margin-top: 10px;
+    margin-left: 186px;
+}
